@@ -1,0 +1,99 @@
+.wholepage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+}
+
+.logout {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.logout button:hover {
+  background-color: #be72f4;
+}
+
+.prediction-img-form {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  height: 90%;
+}
+.Prediction-img-container {
+  display: flex;
+  margin-right: 30px;
+  height: 100%;
+  width: 50%;
+}
+.Prediction-img-container img {
+  transform: scale(0.8);
+}
+.Predictionn-formm-h1 {
+  margin-bottom: auto;
+  margin-left: 150px;
+  margin-right: 10%;
+  margin-top: auto;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 45px;
+}
+.Predictionn-formm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+}
+.Prediction-formm h1 {
+  font-size: 24px;
+}
+.input-group {
+  width: 200%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 50%;
+}
+
+.loggin-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.loggin-button span {
+  margin-right: 5px;
+}
+
+.CustomerDB-button {
+  margin-left: 10px;
+}

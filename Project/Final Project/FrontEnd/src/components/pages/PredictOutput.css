@@ -1,0 +1,159 @@
+.Prediction-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.User-Details,
+.User-Output {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.User-Details h1,
+.User-Output h1 {
+  margin-bottom: 10px;
+  color: #1985c9;
+  font-size: 28px;
+}
+
+.User-Details {
+  background-color: #486793;
+  border-color: #486793;
+}
+
+.User-Output {
+  background-color: #1d2631;
+  border-color: #1d2631;
+}
+
+.User-Details p,
+.User-Output p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 20px;
+}
+
+.logoutp {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logoutp button {
+  padding: 10px 20px;
+  background-color: #1985c9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.logoutp button:hover {
+  background-color: #0071a1;
+}
+
+.loading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Additional Styling */
+.Prediction-form {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.User-Details,
+.User-Output {
+  width: 100%;
+}
+
+.User-Details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+.User-Details h1 {
+  grid-column: 1 / span 2;
+  text-align: left;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.User-Details p {
+  text-align: left;
+  color: #fff;
+  font-size: 24px;
+}
+
+.User-Output {
+  padding: 40px;
+}
+
+.User-Output h1 {
+  text-align: left;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.User-Output p {
+  text-align: left;
+  color: #fff;
+  font-size: 24px;
+}
+
+.logoutp button {
+  
+ background-color: #486793;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.logoutp button:hover {
+  background-color: #43b6eb;
+  transform: scale(1.05);
+}
+.logout button:hover {
+  background-color: #43b6eb;
+  transform: scale(1.05);
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logout-button {
+  background-color: #486793;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.button-wrapper > :first-child {
+  margin-right: 20px;
+}
